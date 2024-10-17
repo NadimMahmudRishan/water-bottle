@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 3px solid rgb(188, 188, 255);
+  border-radius: 15px;
+  background-color: aliceblue;
+  padding: 30px;
+  gap: 30x;
+}

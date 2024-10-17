@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Bottle from "../bottle/Bottle";
+import './bottles.css'
 const Bottels = () => {
 
     const [bottles,setBottles] = useState([]);
@@ -11,12 +12,14 @@ const Bottels = () => {
     },[])
 
     return (
-        <div>
-            <h2>Total Bottels : {bottles.length}</h2>
-            {
-                bottles.map(bottle => <Bottle key={bottle.id} bottle={bottle} ></Bottle>)
-            }
+      <div>
+        <h2>Total Bottels : {bottles.length}</h2>
+        <div className="container">
+          {bottles.map((bottle) => (
+            <Bottle key={bottle.id} bottle={bottle}></Bottle>
+          ))}
         </div>
+      </div>
     );
 };
 
