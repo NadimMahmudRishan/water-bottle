@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Water Bottle",
+        "value": 10,
+        "description": "A stainless steel bottle that keeps water cold for 24 hours.",
+        "picture": "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+    },
+    {
+        "id": 2,
+        "name": "Juice Bottle",
+        "value": 15,
+        "description": "A 500ml glass bottle for fresh juices.",
+        "picture": "https://images.unsplash.com/photo-1617987791298-83c9cf71d139"
+    },
+    {
+        "id": 3,
+        "name": "Soda Bottle",
+        "value": 8,
+        "description": "A fizzy soda bottle with a pop-up cap.",
+        "picture": "https://images.unsplash.com/photo-1550399105-c4db5fb94e4d"
+    },
+    {
+        "id": 4,
+        "name": "Wine Bottle",
+        "value": 30,
+        "description": "A classic red wine bottle with a cork seal.",
+        "picture": "https://images.unsplash.com/photo-1581705705942-8127a240c6a4"
+    },
+    {
+        "id": 5,
+        "name": "Oil Bottle",
+        "value": 12,
+        "description": "An olive oil bottle with a nozzle for easy pouring.",
+        "picture": "https://images.unsplash.com/photo-1574990706405-ec3f823ef14c"
+    },
+    {
+        "id": 6,
+        "name": "Perfume Bottle",
+        "value": 50,
+        "description": "A designer perfume bottle with a sleek glass design.",
+        "picture": "https://images.unsplash.com/photo-1603382145459-0a81dc54b5bb"
+    },
+    {
+        "id": 7,
+        "name": "Milk Bottle",
+        "value": 5,
+        "description": "A classic glass milk bottle with a sealed cap.",
+        "picture": "https://images.unsplash.com/photo-1599785209707-9ed5bb6e0b99"
+    },
+    {
+        "id": 8,
+        "name": "Beer Bottle",
+        "value": 6,
+        "description": "A dark glass beer bottle with a twist-off cap.",
+        "picture": "https://images.unsplash.com/photo-1565790862528-9b4d2a92c6f0"
+    },
+    {
+        "id": 9,
+        "name": "Hot Sauce Bottle",
+        "value": 4,
+        "description": "A small bottle for storing hot sauce, with a narrow opening.",
+        "picture": "https://images.unsplash.com/photo-1571032018171-da3b142c6bb9"
+    },
+    {
+        "id": 10,
+        "name": "Medicine Bottle",
+        "value": 3,
+        "description": "A small plastic bottle for liquid medicine.",
+        "picture": "https://images.unsplash.com/photo-1583324113626-70df0f4deaab"
+    }
+]
