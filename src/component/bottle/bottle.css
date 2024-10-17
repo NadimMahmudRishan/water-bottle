@@ -1,0 +1,10 @@
+.bottle-container {
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid rgb(60, 252, 156);
+  border-radius: 15px;
+}
+.bottle-image {
+  width: 200px;
+  border-radius: 5px;
+}
