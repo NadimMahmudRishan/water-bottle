@@ -15,4 +15,10 @@ const addToLS=id=>{
     saveCartToLS(cart);
 }
 
-export {addToLS,getStoreCart}
+const removeFormLS=id=>{
+    const cart = getStoreCart();
+    const remaining= cart.filter(ids=>ids!==id);
+    saveCartToLS(remaining);
+}
+
+export {addToLS,getStoreCart,removeFormLS}

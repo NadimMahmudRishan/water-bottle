@@ -2,7 +2,11 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Bottle from "../bottle/Bottle";
 import "./bottles.css";
-import { addToLS, getStoreCart } from "../../utilityes/LocalStorage";
+import {
+  addToLS,
+  getStoreCart,
+  removeFormLS,
+} from "../../utilityes/LocalStorage";
 const Bottels = () => {
   const [bottles, setBottles] = useState([]);
   const [cart, setcart] = useState([]);
@@ -26,11 +30,16 @@ const Bottels = () => {
       setcart(saveCart);
     }
   }, [bottles]);
+
   //  ADD to cart
   const handelCart = (bottle) => {
     const newCart = [...cart, bottle];
     setcart(newCart);
     addToLS(bottle.id);
+  };
+  // Remove From cart
+  const handelRemoveCart = id => {
+    removeFormLS(id);
   };
   return (
     <div>
