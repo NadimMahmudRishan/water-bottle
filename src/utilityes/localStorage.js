@@ -15,4 +15,4 @@ const addToLS=id=>{
     saveCartToLS(cart);
 }
 
-export {addToLS}
+export {addToLS,getStoreCart}
