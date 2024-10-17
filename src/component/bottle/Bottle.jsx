@@ -1,6 +1,6 @@
 import "./bottle.css";
 
-const bottle = ({ bottle }) => {
+const bottle = ({ bottle, handelCart }) => {
   const { name, seller, stock, price, img } = bottle;
   return (
     <div className="bottle-container">
@@ -9,6 +9,7 @@ const bottle = ({ bottle }) => {
       <p>Price : {price}</p>
       <p>Seller : {seller}</p>
       <p>Stoke : {stock}</p>
+      <button onClick={() => handelCart(bottle)}>Add To Cart</button>
     </div>
   );
 };
